@@ -75,6 +75,7 @@
             android:text="10 Sets"
             android:textAlignment="textEnd"
             android:textColor="#ffffff" />
+
     </RelativeLayout>
 
     <RelativeLayout
@@ -150,9 +151,11 @@
         android:id="@+id/cardioBtn"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
         android:layout_weight="1"
         android:background="@drawable/rounded_corners"
-        android:backgroundTint="#52ad56">
+        android:backgroundTint="#52ad56"
+        android:paddingBottom="10dp">
 
         <ImageView
             android:id="@+id/weightImg"
@@ -212,6 +215,23 @@
             android:text="5 miles"
             android:textAlignment="textEnd"
             android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/settingsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#555"
+        android:padding="5dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/settings_btn" />
     </RelativeLayout>
 
 </LinearLayout>
